@@ -35,7 +35,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	JWTTokenFilter jwtTokenFilter;
 
-	private String[] PUBLIC_GET = { "/hello/**", "/user/**"};
+	private String[] PUBLIC_GET = { "/user/**"};
 
 	private String[] PUBLIC_POST = { "/auth", "/user/**"};
 
